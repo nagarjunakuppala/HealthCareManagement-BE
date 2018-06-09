@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-
+//added by rekha
 const appointmentSchema = mongoose.Schema({
 
 	appointmentType:{
