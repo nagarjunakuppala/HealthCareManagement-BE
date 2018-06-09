@@ -15,7 +15,7 @@ mongoose.connection.on('connected',() =>{
 mongoose.connection.on('error',(err)=>{
 	console.log(err);
 });
-
+//Added by chaitra
 app.use(cors());
 app.use(bodyParser.json());
 app.use('/appointment', appointmentRoute);
