@@ -4,8 +4,7 @@ var bodyParser = require('body-parser');
 var cors = require('cors');
 
 const appointmentRoute = require('./routes/appointmentRoute');
-//adding new txt
-//add by nagarjuna
+
 var app = express();
 mongoose.connect('mongodb://localhost:27017/healthmanagement');
 mongoose.connection.on('connected',() =>{
