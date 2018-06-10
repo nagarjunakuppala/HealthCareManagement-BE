@@ -10,6 +10,7 @@ var app = express();
 
 //getting mongodb connection modified by nagarjuna
 //added comment to test conflicts
+//GETTING MONGODB CONNECTION
 mongoose.connect('mongodb://localhost:27017/healthmanagement');
 mongoose.connection.on('connected',() =>{
 	console.log("connected to mongodb at port 27017");
