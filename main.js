@@ -9,7 +9,7 @@ const appointmentRoute = require('./routes/appointmentRoute');
 var app = express();
 
 //getting mongodb connection modified by nagarjuna
-//added comment to test conflicts
+//added comment to test conflicts nag naga arjun
 //GETTING MONGODB CONNECTION
 mongoose.connect('mongodb://localhost:27017/healthmanagement');
 mongoose.connection.on('connected',() =>{
