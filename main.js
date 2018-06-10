@@ -3,7 +3,6 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 
-//adding all routes nagarjuna hhhh
 const appointmentRoute = require('./routes/appointmentRoute');
 
 var app = express();
