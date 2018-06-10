@@ -9,6 +9,9 @@ const appointmentRoute = require('./routes/appointmentRoute');
 var app = express();
 
 //GETTING MONGODB CONNECTION
+//Testing conflict errors
+//getting mongodb connection test modified by nagarjuna //Testing conflict errors
+//added comment to test conflicts test
 mongoose.connect('mongodb://localhost:27017/healthmanagement');
 mongoose.connection.on('connected',() =>{
 	console.log("connected to mongodb at port 27017");
